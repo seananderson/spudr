@@ -12,3 +12,7 @@ License: GPL-2
 Roxygen: list(wrap = TRUE)
 Depends:
     R (>= 3.1.1)
+Imports:
+    httr,
+    lubridate,
+    stringr
