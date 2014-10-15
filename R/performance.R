@@ -5,7 +5,6 @@
 #' @param f A vector of in and out cash flows
 #' @param f_day A numeric vector of days since start in which cash flows occured
 #' @param days The (numeric) total number of days (end day minus first day + 1)
-#' @rdname performance
 #'
 #' @references
 #' http://en.wikipedia.org/wiki/Modified_Dietz_method
@@ -33,7 +32,6 @@ mdietz <- function(start_value, end_value, f, f_day, days) {
 #' @param investment_net Net value invested
 #' @param contributions A vector of contributions
 #' @param buys A vector of value bought
-#' @rdname performance
 #' @export
 #' @return A scalar numeric value representing the rate of return
 
