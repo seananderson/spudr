@@ -14,7 +14,7 @@ devtools::install_github("seananderson/spud")
 
 One thing the package does that you might find useful, is to return a data frame
 (or append data to a .csv file) with today's stock values for a vector of stock
-symbols. For example:
+symbols. The data come from Google Finance in real time. For example:
 
 ```S
 s <- c("VAB", "XRB", "ZRE", "XEC", "XEF", "XIC", "VUN", "TDB909", "TDB911")
