@@ -8,7 +8,7 @@ Authors@R: person(c("Sean", "C."), "Anderson", email =
 Maintainer: Sean C. Anderson <sean@seananderson.ca>
 Description: Tools for tracking and managing 'couch potato' investment
     portfolios in the spirit of http://canadiancouchpotato.com/
-License: GPL-2
+License: MIT
 Roxygen: list(wrap = TRUE)
 Depends:
     R (>= 3.1.1)
