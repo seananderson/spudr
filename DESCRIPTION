@@ -1,4 +1,4 @@
-Package: spud
+Package: spudr
 Type: Package
 Title: Tools for tracking and managing couch-potato investment portfolios
 Version: 0.0.1
