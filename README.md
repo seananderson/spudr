@@ -1,4 +1,4 @@
-# spud
+# spudr
 
 An R package for tracking and managing couch-potato-style investment portfolios
 in the spirit of <http://canadiancouchpotato.com/>.
@@ -9,7 +9,8 @@ using for tracking portfolios. Right now it doesn't do much.
 You can install the package with:
 ```S
 # install.packages("devtools") # if necessary
-devtools::install_github("seananderson/spud")
+devtools::install_github("seananderson/spudr")
+library("spudr")
 ```
 
 One thing the package does that you might find useful, is to return a data frame
