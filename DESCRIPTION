@@ -16,3 +16,6 @@ Imports:
     httr,
     lubridate,
     stringr
+Suggests:
+    knitr
+VignetteBuilder: knitr

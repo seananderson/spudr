@@ -1,0 +1,19 @@
+---
+title: "Tracking index funds with spudr"
+author: "Sean C. Anderson"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Tracking index funds with spudr}
+  %\VignetteEngine{knitr::rmarkdown}
+  \usepackage[utf8]{inputenc}
+---
+
+```{r}
+library(spudr)
+```
+
+```{r}
+s <- c("VAB", "XRB", "ZRE", "XEC", "XEF", "XIC", "VUN", "TDB909", "TDB911")
+google_dat(s, file_out = TRUE, file_name = "investments.txt")
+```
