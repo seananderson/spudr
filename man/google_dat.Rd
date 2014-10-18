@@ -3,7 +3,8 @@
 \alias{google_dat}
 \title{Get stock values from Google Finance}
 \usage{
-google_dat(symbols, file_out = NULL)
+google_dat(symbols, file_out = FALSE, file_name = "investments.txt",
+  append = TRUE)
 }
 \arguments{
   \item{symbols}{A character vector of symbols to look up
@@ -11,6 +12,11 @@ google_dat(symbols, file_out = NULL)
 
   \item{file_out}{An optional file name to append
   comma-delimited data to. This file must already exist.}
+
+  \item{file_name}{The name of the file to write to.}
+
+  \item{append}{Should the data be appended to
+  \code{file_name}?}
 }
 \value{
 A data frame with current values for each stock symbol. The
